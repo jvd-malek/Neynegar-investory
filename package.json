@@ -1,0 +1,15 @@
+{
+  "name": "storring-app",
+  "version": "1.0.0",
+  "description": "an app to store products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./style/input.css -o ./style/output.css -w"
+  },
+  "author": "jvd malek",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
