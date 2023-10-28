@@ -855,6 +855,10 @@ video {
   width: 33.333333%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -867,6 +871,10 @@ video {
   width: 2rem;
 }
 
+.w-\[10rem\] {
+  width: 10rem;
+}
+
 .w-\[150px\] {
   width: 150px;
 }
@@ -877,6 +885,26 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[15rem\] {
+  width: 15rem;
+}
+
+.w-\[12rem\] {
+  width: 12rem;
+}
+
+.w-\[11rem\] {
+  width: 11rem;
+}
+
+.w-\[11\.5rem\] {
+  width: 11.5rem;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .max-w-\[39\.25rem\] {
@@ -925,11 +953,6 @@ video {
 
 .translate-y-1 {
   --tw-translate-y: 0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-\[-2\.5rem\] {
-  --tw-translate-y: -2.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1419,6 +1442,10 @@ video {
   justify-items: stretch;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1864,14 +1891,19 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.bg-\[\#dcfafe\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 250 254 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#edddfb\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 221 251 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -2094,9 +2126,19 @@ video {
   line-height: 2rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -2493,24 +2535,20 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
-.delay-100 {
-  transition-delay: 100ms;
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
-.delay-300 {
-  transition-delay: 300ms;
+.delay-100 {
+  transition-delay: 100ms;
 }
 
 .duration-300 {
